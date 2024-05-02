@@ -9,7 +9,7 @@ const Card = () => {
 
   const loadData = async () => {
     try {
-      const response = await fetch("/api/dishes", {
+      const response = await fetch("project-gilt-eight.vercel.app/api/dishes", {
         method: "POST",
         headers: {
           'Content-Type': 'application/json'
